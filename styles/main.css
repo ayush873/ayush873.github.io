@@ -1,0 +1,82 @@
+#intro {
+  background: url("../img/5.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.top-nav-collapse {
+  background-color: #DC143C !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #DC143C !important;
+  }
+}
+
+#intro .h6 {
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+.hm-gradient .full-bg-img {
+  background: rgba(42, 27, 161, 0.7);
+  background: linear-gradient(45deg, rgba(177, 21, 207, 0.7), rgba(175, 42, 27, 0.7) 100%);
+}
+
+@media (max-width: 450px) {
+  .margins {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+}
+
+#pricing .lead {
+  opacity: 0.7;
+}
+
+#pricing .card-image {
+  background: url("../img/architecture.jpg") no-repeat center center;
+  background: linear-gradient(45deg, rgba(175, 42, 27, 0.7), rgba(177, 210, 27, 0.7) 100%);
+}
+
+#pricing ul li {
+  font-size: 1.1em;
+}
+html { 
+
+  background: url(../img/4.jpg) no-repeat center center fixed; 
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.iq-icon { 
+  background: #fff none repeat scroll 0 0;
+ border-radius: 100px; 
+ box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.1); 
+ color: #333; display: inline-block; 
+ font-size: 24px; margin-bottom: 20px;
+  height: 60px; line-height: 60px; position: relative;
+   text-align: center; -webkit-transition: all 0.3s ease 0s; 
+   transition: all 0.3s ease 0s; width: 60px; 
+ }
+ .round{
+  border-radius: 50%;
+ }
+ .edit{
+  background-color: rgba(255,255,255,0.7);
+  text-decoration-color: black;
+
+ }
+ .edit:hover{
+  color: white;
+  background-color:#DC143C;
+ }
+ .partner{
+  background: url("../img/bkg.jpg") no-repeat center center;
+ }
